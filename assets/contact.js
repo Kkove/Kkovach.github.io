@@ -8,11 +8,11 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     console.log('Form Data Submitted:', (name, email, message));
 
     document.getElementById('formContainer').innerHTML = `
-                <div class="thank-you-message">
-                    <p>Thank you for contacting, ${name}!</p>
-                    <p>I'll get back to you soon.</p>
-                </div>
-            `;
+        <div class="thank-you-message">
+            <p>Thank you for contacting, ${name}!</p>
+            <p>I'll get back to you soon.</p>
+        </div>
+    `;
 
     event.target.reset();
 });

@@ -107,6 +107,10 @@ table, th, td {
     height: 75px;
 }
 
+.list-item {
+    list-style: none;
+}
+
 #submit-contact {
     background-color: #7e966e;
     color: white;
