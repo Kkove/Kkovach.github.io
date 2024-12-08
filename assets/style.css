@@ -1,0 +1,126 @@
+body {
+    background-color: #f2faf2;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    background-image: url(./images/background.jpg);
+    background-size: 100%;
+    background-blend-mode: overlay;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+  
+header {
+    height: 80px;
+    text-align: center;
+    font: bold;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h4 {
+    text-indent: 10px;
+}
+  
+nav {
+    background-color: #e2fad3;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 2px #2e2e2e;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(182, 218, 141);
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    bottom: 0;
+    padding: 15px;
+}
+
+mark {
+    background-color: #f2faf2;
+}
+
+li {
+    padding: 20px;
+}
+
+table {
+    text-align: left;
+}
+
+td {
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+.project-image {
+    height: 40%;
+    width: 40%;
+    border-style: solid;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f1f4ee;
+    border-radius: 8px;
+}
+
+.form-header {
+    margin-bottom: 20px;
+}
+
+.thank-you-message {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: #e3f4d6;
+    color: #124a1f;
+    border-radius: 8px;
+}
+
+.links {
+    padding: 3px;
+    width: 75px;
+    height: 75px;
+}
+
+#submit-contact {
+    background-color: #7e966e;
+    color: white;
+}
+
+#contacts {
+    text-indent: 10px;
+}
+
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
